@@ -1,4 +1,4 @@
-# Chatbot Web Application (Flask + HTML, CSS, JS)
+# Chatbot Web Application (Flask + HTML,JS)
 
 I am Emmanuel Christian V. Galang, a Web Developer, currently studying at UIC Davao City.
 
