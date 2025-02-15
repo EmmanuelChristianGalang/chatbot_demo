@@ -1,4 +1,4 @@
-# Ignore backend build artifacts and dependencies
+# Ignore backend dependencies
 backend/node_modules/
 backend/venv/
 backend/__pycache__/
@@ -7,4 +7,3 @@ backend/logs/
 
 # Ignore Git repo inside backend
 backend/.git/
-
