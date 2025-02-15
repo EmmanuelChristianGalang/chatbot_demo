@@ -1,0 +1,329 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good evening", "What's up?", "Howdy", "Hey there!", "Hi, how are you?", "Greetings", "Yo!"
+      ],
+      "responses": [
+        "Hello, coder!", "Hi there! Ready to debug?", "Hey! What programming challenge are you facing?", "Howdy, developer!", "Welcome back, what are you coding today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you", "Goodbye", "Take care", "Catch you later", "I'm leaving", "Talk to you later", "See you soon", "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Keep coding!", "See you later! Happy debugging!", "Take care! Don't forget to commit your code!", "Happy coding! See you next time."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Much appreciated", "Many thanks", "I’m grateful", "Big thanks!"
+      ],
+      "responses": [
+        "You're welcome! Happy coding!", "No problem! Keep building awesome stuff!", "Glad I could help!", "You're welcome! Need help with anything else?"
+      ]
+    },
+    {
+      "tag": "react",
+      "patterns": [
+        "What is React?", "How does React work?", "Should I use React or Vue?", "What are React hooks?", "Explain useEffect in React", "What is JSX?", "How do I manage state in React?", "What is Redux?", "How do I optimize React performance?", "What is Next.js?"
+      ],
+      "responses": [
+        "React is a JavaScript library for building UI components.", "React uses a virtual DOM to efficiently update the UI.", "React hooks allow functional components to manage state.", "JSX is a syntax extension that looks like HTML but works in JavaScript.", "Next.js is a framework for server-side rendering and static site generation in React."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python used for?", "How do I install Python?", "What is a Python module?", "How do I write a function in Python?", "Explain Python decorators", "What are Python data types?", "How do I handle exceptions in Python?", "What is list comprehension in Python?", "What are Python generators?", "How do I work with APIs in Python?"
+      ],
+      "responses": [
+        "Python is used for web development, automation, AI, and more!", "You can install Python from python.org or use package managers like brew or apt.", "A Python module is a file containing Python code, usually reusable functions or classes.", "List comprehension is a concise way to create lists in Python.", "Generators allow you to iterate over data lazily, using less memory."
+      ]
+    },
+    {
+      "tag": "deployment",
+      "patterns": [
+        "How do I deploy a React app?", "What is Vercel?", "How do I deploy a Python web app?", "What is Docker?", "Explain Kubernetes", "How do I set up a CI/CD pipeline?", "What is AWS Lambda?", "How do I deploy a Flask app?", "What is Netlify?", "What are cloud providers?"
+      ],
+      "responses": [
+        "React apps can be deployed using Vercel, Netlify, or Firebase Hosting.", "Vercel is a popular platform for deploying frontend applications.", "Flask apps can be deployed on Heroku, AWS, or DigitalOcean.", "Docker is a containerization tool that helps package and deploy applications.", "AWS, Google Cloud, and Azure are major cloud providers."
+      ]
+    },
+    {
+      "tag": "algorithms",
+      "patterns": [
+        "What is an algorithm?", "Explain sorting algorithms", "What is Big O notation?", "How does binary search work?", "Explain recursion in programming", "What is dynamic programming?", "How do I optimize an algorithm?", "What is a hash table?", "Explain graph algorithms", "What is Dijkstra’s algorithm?"
+      ],
+      "responses": [
+        "An algorithm is a step-by-step procedure for solving a problem.", "Sorting algorithms include quicksort, mergesort, and bubblesort.", "Big O notation helps analyze the efficiency of an algorithm.", "Binary search is a fast way to find elements in a sorted list.", "Dynamic programming breaks problems into smaller subproblems for optimization."
+      ]
+    },
+    {
+      "tag": "databases",
+      "patterns": [
+        "What is SQL?", "What is a relational database?", "Explain NoSQL databases", "What is MongoDB used for?", "SQL vs NoSQL: which one is better?", "How do I optimize database queries?", "What is indexing in databases?", "Explain ACID properties", "What is normalization in databases?", "What is Firebase?"
+      ],
+      "responses": [
+        "SQL databases like PostgreSQL and MySQL store structured data.", "NoSQL databases like MongoDB handle unstructured or semi-structured data.", "Indexing speeds up database queries by optimizing lookups.", "ACID properties ensure data consistency in transactions.", "Firebase is a real-time NoSQL database by Google."
+      ]
+    },
+    {
+      "tag": "api",
+      "patterns": [
+        "What is an API?", "Explain RESTful APIs", "What is GraphQL?", "How do I fetch data from an API?", "How do I build an API in Flask?", "What is FastAPI?", "Explain HTTP methods", "What is an API key?", "How do I secure an API?", "What is OAuth?"
+      ],
+      "responses": [
+        "An API allows different software systems to communicate.", "REST APIs use HTTP methods like GET, POST, PUT, and DELETE.", "GraphQL is a flexible query language for APIs.", "FastAPI is a modern web framework for building APIs in Python.", "OAuth is an authentication protocol for secure API access."
+      ]
+    },
+    {
+      "tag": "troubleshooting",
+      "patterns": ["Why is my website slow?", "How do I fix a memory leak in JavaScript?", "Why is my API request failing?", "What do I do if my database is slow?", "How do I debug network issues?"],
+      "responses": ["Check for large images, unused scripts, or excessive API calls.", "Memory leaks in JavaScript can happen due to unreferenced variables or event listeners.", "Check API response status codes and network logs.", "Optimize queries, add indexing, and monitor database load.", "Use browser DevTools and network analyzers to debug."]
+    },
+    {
+      "tag": "error_handling",
+      "patterns": ["Why am I getting a syntax error?", "How do I debug my code?", "My app is crashing, what should I do?", "How do I handle exceptions?", "Why is my API returning a 500 error?"],
+      "responses": ["Check the syntax carefully, missing brackets or typos can cause errors.", "Use print statements or logging to debug.", "Check error logs to understand what caused the crash.", "Use try-except blocks to handle exceptions properly.", "A 500 error usually means something is wrong on the server side."]
+    },
+    { "tag": "python_basics",
+      "patterns": [
+      "What is Python?",
+      "Tell me about Python",
+      "Explain Python to me"
+    ],
+     "responses": [
+      "Python is a high-level programming language known for its simplicity and readability.",
+      "Python is widely used in web development, data science, and automation."
+    ]
+  },
+  {
+    "tag": "java_basics",
+    "patterns": [
+      "What is Java?",
+      "Tell me about Java",
+      "Explain Java to me"
+    ],
+    "responses": [
+      "Java is a popular, object-oriented programming language used in enterprise applications and Android development.",
+      "Java runs on the JVM (Java Virtual Machine), making it platform-independent."
+    ]
+  },
+  {
+    "tag": "c_basics",
+    "patterns": [
+      "What is C language?",
+      "Tell me about C",
+      "Explain C programming"
+    ],
+    "responses": [
+      "C is a procedural programming language that is widely used for system programming and embedded systems.",
+      "C is known for its efficiency and control over hardware resources."
+    ]
+  },
+  {
+    "tag": "javascript_basics",
+    "patterns": [
+      "What is JavaScript?",
+      "Tell me about JavaScript",
+      "Explain JavaScript to me"
+    ],
+    "responses": [
+      "JavaScript is a scripting language used primarily for creating dynamic web pages.",
+      "JavaScript allows developers to make interactive and responsive web applications."
+    ]
+  },
+  {
+    "tag": "html_basics",
+    "patterns": [
+      "What is HTML?",
+      "Tell me about HTML",
+      "Explain HTML to me"
+    ],
+    "responses": [
+      "HTML (HyperText Markup Language) is used to create the structure of web pages.",
+      "HTML consists of elements like headings, paragraphs, links, and images."
+    ]
+  },
+  {
+    "tag": "css_basics",
+    "patterns": [
+      "What is CSS?",
+      "Tell me about CSS",
+      "Explain CSS to me"
+    ],
+    "responses": [
+      "CSS (Cascading Style Sheets) is used to style HTML content.",
+      "CSS allows you to apply colors, fonts, and layouts to web pages."
+    ]
+  },
+  {
+    "tag": "react_basics",
+    "patterns": [
+      "What is React?",
+      "Tell me about React",
+      "Explain React to me"
+    ],
+    "responses": [
+      "React is a JavaScript library for building user interfaces.",
+      "React allows developers to create reusable UI components and manage state efficiently."
+    ]
+  },
+  {
+    "tag": "machine_learning",
+    "patterns": [
+      "What is Machine Learning?",
+      "Tell me about ML",
+      "Explain Machine Learning"
+    ],
+    "responses": [
+      "Machine Learning is a subset of AI that enables computers to learn from data.",
+      "ML is used in applications like image recognition, natural language processing, and recommendation systems."
+    ]
+  },
+  {
+    "tag": "database_basics",
+    "patterns": [
+      "What is a database?",
+      "Tell me about databases",
+      "Explain databases to me"
+    ],
+    "responses": [
+      "A database is an organized collection of data that can be accessed and managed efficiently.",
+      "Common databases include MySQL, PostgreSQL, and MongoDB."
+    ]
+  },
+  {
+    "tag": "git_basics",
+    "patterns": [
+      "What is Git?",
+      "Tell me about Git",
+      "Explain Git to me"
+    ],
+    "responses": [
+      "Git is a distributed version control system used to track changes in code.",
+      "Developers use Git to collaborate and manage different versions of their projects."
+    ]
+  },
+  {
+    "tag": "debugging_errors",
+    "patterns": [
+      "How do I debug Python code?",
+      "How to fix a syntax error?",
+      "What does 'undefined variable' mean?",
+      "Why am I getting a TypeError?",
+      "How do I handle exceptions in Java?"
+    ],
+    "responses": [
+      "Use a debugger like pdb in Python or console.log in JavaScript to trace issues.",
+      "Syntax errors occur due to incorrect syntax. Check missing colons, parentheses, or quotes.",
+      "An undefined variable error means you're trying to use a variable that hasn't been declared.",
+      "A TypeError occurs when an operation is performed on an incompatible data type.",
+      "Use try-catch blocks in Java to handle exceptions gracefully."
+    ]
+  },
+  {
+    "tag": "error_handling",
+    "patterns": [
+      "What is exception handling?",
+      "How to catch errors in JavaScript?",
+      "What is a try-except block in Python?",
+      "How do I prevent runtime errors?",
+      "Best practices for handling errors?"
+    ],
+    "responses": [
+      "Exception handling is a way to manage errors gracefully and prevent crashes.",
+      "In JavaScript, use try-catch blocks to handle errors and prevent script failure.",
+      "In Python, use a try-except block to catch and manage exceptions.",
+      "Prevent runtime errors by validating user input, checking data types, and handling edge cases.",
+      "Log errors, use descriptive messages, and avoid catching generic exceptions to handle errors effectively."
+    ]
+  },
+  {
+    "tag": "attendance_tracking",
+    "patterns": [
+      "How do I track my attendance?",
+      "What is an attendance tracker?",
+      "How does the attendance system work?",
+      "How do I clock in and out?",
+      "Can I check my attendance history?",
+      "How do I view my work hours?",
+      "How do I log a break?",
+      "What happens if I forget to clock in?",
+      "Can I edit my attendance records?",
+      "What is the total number of hours I worked?"
+    ],
+    "responses": [
+      "You can track your attendance using the attendance dashboard, where you can clock in, log breaks, and clock out.",
+      "An attendance tracker records employee work hours, breaks, and time-ins/outs.",
+      "The system logs your clock-in, break, and clock-out times automatically.",
+      "To clock in, press the 'Clock In' button on the dashboard. Similarly, use the 'Clock Out' button to record the end of your shift.",
+      "Yes, you can view your attendance history in the attendance log section.",
+      "You can check your work hours on the dashboard, which calculates your total hours for the day.",
+      "Use the 'Break' button to log your break time. You must clock back in after your break.",
+      "If you forget to clock in, contact the administrator to update your records.",
+      "Editing attendance records may require admin approval.",
+      "Your total worked hours are calculated based on your clock-in and clock-out times."
+    ]
+  },
+  {
+    "tag": "attendance_issues",
+    "patterns": [
+      "Why is my attendance not showing?",
+      "I forgot to clock in, what should I do?",
+      "My clock-in time is incorrect.",
+      "How do I correct an attendance mistake?",
+      "Can I request an attendance correction?",
+      "Why is my break time missing?",
+      "Why am I marked as absent?",
+      "What happens if I forget to clock out?",
+      "Can I clock in remotely?",
+      "How does the system handle late clock-ins?"
+    ],
+    "responses": [
+      "If your attendance is not showing, try refreshing the page or contact support.",
+      "If you forgot to clock in, inform your manager or HR to manually update your attendance.",
+      "Incorrect clock-in times may result from a system delay or network issue. Check with your administrator for corrections.",
+      "To correct an attendance mistake, submit a request through the attendance correction form (if available).",
+      "Yes, you can request an attendance correction, but it may require approval from HR or management.",
+      "If your break time is missing, ensure you logged it correctly. If the issue persists, contact support.",
+      "If you are marked as absent incorrectly, report the issue to HR or your manager for verification.",
+      "Forgetting to clock out may result in an incomplete shift record. The system may mark you as absent or keep the shift open until corrected.",
+      "Remote clock-ins depend on company policy. Some systems allow it based on location tracking.",
+      "Late clock-ins may be flagged, and the system may calculate deductions based on company policy."
+    ]
+  },
+  {
+    "tag": "leave_management",
+    "patterns": [
+      "How do I apply for leave?",
+      "Can I check my leave balance?",
+      "What types of leave are available?",
+      "How do I cancel a leave request?",
+      "How long does leave approval take?",
+      "Can I take an emergency leave?",
+      "What happens if my leave is rejected?",
+      "How do I check my leave status?",
+      "What is the maximum number of leave days I can take?",
+      "Do holidays affect my attendance?"
+    ],
+    "responses": [
+      "To apply for leave, go to the leave request section and submit your application.",
+      "You can check your leave balance on your profile or leave dashboard.",
+      "Common types of leave include sick leave, vacation leave, emergency leave, and unpaid leave.",
+      "To cancel a leave request, contact HR or use the cancel option (if available) in the leave management system.",
+      "Leave approval times depend on your company's policy, but it usually takes 24-48 hours.",
+      "Emergency leaves can be requested, but you may need to provide a valid reason.",
+      "If your leave request is rejected, check the reason and try reapplying if necessary.",
+      "You can check your leave status in the leave request section.",
+      "The maximum number of leave days depends on your company's policy and your accrued leave balance.",
+      "Holidays do not count as absences and may not affect your work hours unless specified by company policy."
+    ]
+  }  
+  ]
+}
