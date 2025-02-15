@@ -1,7 +1,7 @@
 # Chatbot Web Application (Flask + HTML)
-## 📌 **By Emmanuel Christian V. Galang 📌 **
 
-***************** Requirements ***************** 
+
+REQUIREMENTS:
 Before proceeding, make sure you have the following installed:
 
 Python (preferably Python 3)
@@ -9,7 +9,7 @@ pip (Python's package installer)
 Git (for cloning the repository)
 Flask (Python web framework)
 
-****************** PROJECT CLONE ****************
+PROJECT CLONE:
 
 For Windows:
 git clone git@github.com:EmmanuelChristianGalang/chatbot_demo.git C:\Users\YourUsername\Desktop\chatbot-demo
@@ -18,7 +18,7 @@ REPLACE YourUsername with your actual Windows username.
 For Ubuntu/Linux:
 git clone git@github.com:EmmanuelChristianGalang/chatbot_demo.git ~/Desktop/chatbot-demo
 
-****************** FIND THE PROJECT DIRECTORY ****************
+PROJECT DIRECTORY:
 
 For Windows: 
 cd C:\Users\YourUsername\Desktop\chatbot-demo
@@ -26,7 +26,7 @@ cd C:\Users\YourUsername\Desktop\chatbot-demo
 For Ubuntu/Linux:
 cd ~/Desktop/chatbot-demo
 
-***************** CREATE A VIRTUAL ENVIRONMENT ***************
+CREATE VIRTUAL ENVIRONMENT:
 
 For Windows: 
 python -m venv venv
@@ -34,7 +34,7 @@ python -m venv venv
 For Ubuntu/Linux:
 python3 -m venv venv
 
-***************** ACTIVATE VIRTUAL ENVIRONMENT ***************
+ACTIVATE VIRTUAL ENVIRONMENT:
 
 For Windows: 
 .\venv\Scripts\activate
@@ -42,12 +42,12 @@ For Windows:
 For Ubuntu/Linux:
 source venv/bin/activate
 
-**************** INSTALL DEPENDENCIES ************************
+INSTALL DEPENDENCIES:
 
 pip install -r requirements.txt 
 Note: in this project requirements.txt is located at the Backend folder.
 
-**************** RUN APPLICATION (app.py) ********************
+RUN APPLICATION (app.py)
 
 For Windows:
 python app.py
